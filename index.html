@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alter Ego</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="dom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+  
+
+</head>
+
+<body class="body1">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+
+    <div class="section">
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src='CROATIA_main_desc.mp4' type="video/mp4">
+    
+            </video>
+        </div>
+
+        <i class="fas fa-bars" style="
+        position: absolute;
+        color: white;
+        padding-bottom: 38%;
+        padding-right: 87%;
+        " id="sw2" onclick="swipe2()"></i>
+        
+
+        <!-- <img class="hamicon" id="sw2" onclick="swipe2()" src="Screenshot (52).png">  -->
+        
+        <hr class="line1">
+        <hr class="line2">
+        <h1 class="firsthead fadeAlter" id="fhead" >Alter<br>Ego</h1>
+        <!-- <script>
+             $(window).on("load",function() {
+            $(window).scroll(function() {
+                var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                $(".fadeAlter").each(function() {
+                /* Check the location of each desired element */
+                var objectBottom = $(this).offset().top + $(this).outerHeight();
+                
+                /* If the element is completely within bounds of the window, fade it in */
+                if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                    if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+                } else { //object goes out of view (scrolling up)
+                    if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+                }
+                });
+            }).scroll(); //invoke scroll-handler on page-load
+            });
+        </script> -->
+        <div class="hamburger" id="swipe1">
+            <!-- <hr class="line1">
+            <hr class="line1"> -->
+            <a onclick="swipe()"  class="x1" href="#">X</a>
+            <p class="close">CLOSE</p>
+            <p class="main">MAIN</p>
+            <a class="eng" href="#">ENG</a>
+            <a class="rus" href="#">RU</a>
+            <div class="grid1">
+                <div class="e1">
+                    <a class="a1" href="#">ABOUT US</a><br>
+                    <a class="l1" href="#">TEAM</a><br>
+                    <a class="l1" href="#">OFFICES</a><br>
+                    <a class="l1" href="#">MEDIA</a><br>
+                    <a class="l1" href="#">EVENTS</a<br>>
+                    <a class="l1" href="#">FRIENDS</a><br>
+                    <a class="l1" href="#">PARTNERS</a><br>
+
+                </div>
+
+                <div class="e2">
+                    <a class="a2" href="#">SERVICES</a><br>
+                    <a class="l2" href="#">IMPLEMENTATION OF TURNKEY PROJECTS</a><br>
+                    <a class="l2" href="#">ARCHITECTURE</a><br>
+                    <a class="l2" href="#">INTERIOR DESIGN</a><br>
+                    <a class="l2" href="#">CONSTRUCTION AND FINISHING WORKS</a><br>
+                    <a class="l2" href="#">FINISHING AND FITTING</a><br>
+                    <a class="l2" href="#">CONCEPTS AND MASTER PLANS</a><br>
+                    <a class="l2" href="#">CONSULTING</a><br>
+
+                </div>
+
+                <div class="e3">
+                    <a class="a3" href="#">PORTFOLIO</a><br>
+                    <a class="l3" href="#">MANSIONS AND ESTATES</a><br>
+                    <a class="l3" href="#">COUNTRY HOUSES AND VILLAS</a><br>
+                    <a class="l3" href="#">PENTHOUSES AND APARTMENTS</a><br>
+                    <a class="l3" href="#">OFFICES AND BOUTIQUES</a><br>
+                    <a class="l3" href="#">CONCEPTS AND MASTER PLANS</a><br>
+                    <a class="l3" href="#">YATCHS AND PRIVATE JETS</a><br>
+
+                </div>
+
+                <div class="e4">
+                    <a class="a4" href="#">CONTACTS</a><br>
+                    <a class="l4" href="#">MILAN</a><br>
+                    <a class="l4" href="#">MOSCOW</a><br>
+                    <a class="l4" href="#">ABUJA</a><br>
+                    <a class="l4" href="#">SAINT-TROPEZ</a><br>
+                    <a class="l4" href="#">SARDINIA</a><br>
+                    <a class="l4" href="#">ONLINE</a><br>
+
+                </div>
+
+            </div>
+        </div>
+        
+        
+
+        
+    </div>
+
+    <div class="section2">
+        <a class="part1">PENTHOUSES AND APARTMENTS</a>
+        <a class="part2">COUNTRY HOUSES AND VILLAS</a>
+        <a class="part3">MANSIONS AND ESTATES</a>
+    </div>
+
+    <script src="skrollr.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+
+    <div class="section3">
+        <div class="grid2">
+            <div class="slide-in firste">
+                <img class="i1" src="mp01.jpg">
+
+            </div>
+            <div class="slide-in seconde">
+                <img class="i2" src="mp02.jpg">
+                
+            </div>
+            <div class="slide-in thirde">
+                <img class="i3" src="mp03.jpg">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <p class="animate">
+        <span>Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego &nbsp;</span>
+    </p>
+    <!-- <p class="animate animate2">
+        <span>Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego - Alter Ego&nbsp;</span>
+    </p> -->
+    <p class="william">
+        "So sweet honey that, finally, he is bitter. The excess taste kills the taste." Shakespeare.<br>
+        These words by the bard have passed down the centuries and found a different, deeper meaning in our days.<br>
+        Working professionally in the field of private architecture, creating ‘volume’ beauty, we know exactly when to stop.
+						
+    </p>
+    <div class="findd">
+        <div class="linkit">
+            <a href="#" class="find">
+                FIND OUT MORE
+                
+            </a> 
+        </div>
+        <!-- <a href="#" class="find">
+            FIND OUT MORE
+        </a>     -->
+        <!-- <div><hr class="line5"></div> -->
+
+    </div>
+    <!-- <p class="find">
+        FIND OUT MORE
+        <div><hr class="line5"></div>
+
+    </p> -->
+    <div class="slider">
+        <div class="fade slides">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <div class="lm1" style="display: flex;">
+            <img class="a g1" src="Glavnaya-galereya-2.jpg">
+            <img class="g2" src="Glavnaya-galereya-2 (1).jpg">
+            </div>
+            <!-- <div class="text">Caption Text</div> -->
+
+        </div>
+        <div class="fade slides">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <div class="lm2" style="display: flex;">
+                <img class="a g2" src="Glavnaya-galereya-2 (1).jpg">
+                <img class="g3" src="Glavnaya-galereya-2 (3).jpg">
+            </div>
+            
+            <!-- <div class="text">Caption Text</div> -->
+
+        </div>
+        <div class="fade slides">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <div class="lm3" style="display: flex;">
+            <img class="a g3" src="Glavnaya-galereya-2 (3).jpg">
+            <img class="g4" src="Glavnaya-galereya-2 (4).jpg">
+            </div>
+            <!-- <div class="text">Caption Text</div> -->
+
+        </div>
+        <div class="fade slides">
+            <!-- <div class="numbertext">1 / 3</div> -->
+            <div class="lm4" style="display: flex;">
+            <img class="a g4" src="Glavnaya-galereya-2 (4).jpg">
+            <img class="g5" src="Glavnaya-galereya-2 (2).jpg">
+            </div>
+            <!-- <div class="text">Caption Text</div> -->
+
+        </div>
+        <div class="fade slides">
+            <div class="numbertext">1 / 3</div>
+            <div class="lm5" style="display: flex;">
+            <img class="a g5" src="Glavnaya-galereya-2 (2).jpg">
+            <img class="g1" src="Glavnaya-galereya-2.jpg">
+            </div>
+            <!-- <div class="text">Caption Text</div> -->
+
+        </div>
+        <div class="onnr">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+        </div>
+        <div class="onnl">
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+        <!-- <div style="text-align:center">
+
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+          </div> -->
+
+    </div>
+    <script>
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  if(slides.length){
+    slides[slideIndex-1].style.display = "block";  
+  }
+ if(dots.length)
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+
+    <div class="contain" style="background-image: url('cover.png');">
+        <p class="manual">
+            <span>MIAMI MONACO / MILAN / LONDON / PARIS / MOSCOW / DUBAI / GENEVA / ABUJA MIAMI MONACO / MILAN / LONDON / PARIS / MOSCOW / DUBAI / GENEVA / ABUJA MIAMI MONACO / MILAN / LONDON / PARIS / MOSCOW / DUBAI / GENEVA / ABUJA MIAMI MONACO / MILAN / LONDON / PARIS / MOSCOW / DUBAI / GENEVA / ABUJA &nbsp;</span>
+        </p>
+        <p class="art">
+            The art of living includes the ability to communicate. ALTER EGO gathers people to share ideas and emotions
+            with each other, to create unforgettable impressions. The company is becoming the center of social life: a
+            place for receptions, friendly meetings and lively parties in various parts of the world. The talent to create
+            extraordinary interiors is complemented by the ability to organize memorable events.
+        </p>
+
+        <div class="parent">
+            <div class="container1" data-1000-end="transform: translateX(100%); position: relative;" data-0-end="transform: translateX(-100%); position: relative;">
+                <section class="s1">
+                    <div class="content1">
+                        <img class="c1" src="mm01.jpg">
+        
+                    </div>
+                </section>
+                <section class="s2">
+                    <div class="content2">
+                        <img class="c2" src="mm02.jpg">
+                        
+                    </div>
+                </section>
+                <section class="s3">
+                    <div class="content3">
+                        <img class="c3" src="mm03.jpg">
+                        
+                    </div>
+                </section>
+                <section class="s4">
+                    <div class="content4">
+                        <img class="c4" src="mm04.jpg">
+                        
+                    </div>
+                </section>
+                <section class="s5">
+                    <div class="content5">
+                        <img class="c5" src="mm05.jpg">
+                        
+                    </div>
+                </section>
+            </div>
+            
+            
+        </div>
+
+        <!-- <div class="container1" data-0p="transform: translateX(0%); position: fixed;" data-100p="transform: translateX(-100%); position: relative;">
+            <section class="s1">
+                <div class="content1">
+                    <img class="c1" src="mm01.jpg">
+    
+                </div>
+            </section>
+            <section class="s2">
+                <div class="content2">
+                    <img class="c2" src="mm02.jpg">
+                    
+                </div>
+            </section>
+            <section class="s3">
+                <div class="content3">
+                    <img class="c3" src="mm03.jpg">
+                    
+                </div>
+            </section>
+            <section class="s4">
+                <div class="content4">
+                    <img class="c4" src="mm04.jpg">
+                    
+                </div>
+            </section>
+            <section class="s5">
+                <div class="content5">
+                    <img class="c5" src="mm05.jpg">
+                    
+                </div>
+            </section>
+        </div> -->
+        
+
+    </div>
+    <!-- <div class="contain2" style="background-image: url('cover.png');">
+        <p class="art">
+            The art of living includes the ability to communicate. ALTER EGO gathers people to share ideas and emotions
+            with each other, to create unforgettable impressions. The company is becoming the center of social life: a
+            place for receptions, friendly meetings and lively parties in various parts of the world. The talent to create
+            extraordinary interiors is complemented by the ability to organize memorable events.
+        </p>
+    </div>  -->
+
+    <!-- <div class="container1" data-0p="transform: translateX(0%); position: fixed;" data-100p="transform: translateX(-100%); position: relative;">
+        <section class="s1">
+            <div class="content1">
+                <img class="c1" src="mm01.jpg">
+
+            </div>
+        </section>
+        <section class="s2">
+            <div class="content2">
+                <img class="c2" src="mm02.jpg">
+                
+            </div>
+        </section>
+        <section class="s3">
+            <div class="content3">
+                <img class="c3" src="mm03.jpg">
+                
+            </div>
+        </section>
+        <section class="s4">
+            <div class="content4">
+                <img class="c4" src="mm04.jpg">
+                
+            </div>
+        </section>
+        <section class="s5">
+            <div class="content5">
+                <img class="c5" src="mm05.jpg">
+                
+            </div>
+        </section>
+    </div> -->
+
+    <script type="text/javascript" src="skrollr.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
+    <div class="newsection">
+        <p class="architechture">
+            <span>BUREAU OF ARCHITECTURE AND DESIGN BUREAU OF ARCHITECTURE AND DESIGN BUREAU OF ARCHITECTURE AND DESIGN BUREAU OF ARCHITECTURE AND DESIGN BUREAU OF ARCHITECTURE AND DESIGN BUREAU OF ARCHITECTURE AND DESIGN BUREAU OF ARCHITECTURE AND DESIGN  &nbsp;</span>
+        </p>
+        
+        <div class="t1">
+            <div class="p1">
+                VYACHEZLAV LABZIN
+            </div>
+            <div class="p2">
+                JULIA D. LANTIER
+            </div>
+        </div>
+        
+        <div class="t2">
+            <div class="p3">
+                architect and creative director
+            </div>
+            <div class="p4">
+                founder and CEO
+            </div>
+        </div>
+        <div class="im1">
+            <img class="im11" src="p011.png">
+        
+        </div>   
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+'color: white; top:0%; position: absolute'
+data-0="transform: translateX(0%);" data-1000="transform: translateX(-100%);"
+
+ data-bottom="transform: translateY(-50%); top: 50%" data--8000-bottom="transform: translateY(-20%); top: 20%"
+
+ data-0p="transform: translateX(0%); position: fixed;" data-100p="transform: translateX(-100%); position: relative;"
+
+
+ data-0-top='color: black; position: fixed' data-800-top='color: white; position: absolute;'
